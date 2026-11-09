@@ -1,0 +1,22 @@
+[
+  {
+    "_id": {
+      "$oid": "6af171d2109e19ba98dab4df"
+    },
+    "id": "rev-2569c2cee1",
+    "name": "Onkar Vijay Bhalane",
+    "role": "Nagpur",
+    "email": "obhalane@gmail.com",
+    "rating": 5,
+    "segment": "Wildlife",
+    "location": "Tadoba",
+    "title": "testing review",
+    "review": "onkar bhalane testting review",
+    "travelDate": "20 december",
+    "image": "",
+    "date": "09 November 2026",
+    "status": "rejected",
+    "created_at": "2026-11-09T07:10:10.947529+00:00",
+    "updated_at": "2026-11-09T07:11:45.400085+00:00"
+  }
+]

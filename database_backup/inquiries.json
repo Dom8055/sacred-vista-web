@@ -1,0 +1,66 @@
+[
+  {
+    "_id": {
+      "$oid": "6ae703937f43e0a91598df82"
+    },
+    "name": "Onkar Vijay Bhalane",
+    "email": "obhalane@gmail.com",
+    "phone": "07249603542",
+    "segment": "leisure",
+    "message": "jf uueffge fggjdgfis gds sslhsh k hs ahdbfjhsga",
+    "package_id": null,
+    "package_name": null,
+    "destination_id": null,
+    "status": "new",
+    "created_at": "2026-11-01T09:17:07.238725+00:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "_id": {
+      "$oid": "6ae8b0de656c04ed8c68319b"
+    },
+    "name": "Onkar Vijay Bhalane",
+    "email": "obhalane@gmail.com",
+    "phone": "07249603542",
+    "segment": "wildlife",
+    "message": "gabfb fdsbf s dzddz xfgnsfg. bszdbd",
+    "package_id": "pkg-tiger",
+    "package_name": "Tiger Country Expedition",
+    "destination_id": "tadoba",
+    "status": "booked",
+    "created_at": "2026-11-02T15:48:46.332084+00:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "_id": {
+      "$oid": "6af03fb451097df0d93959e5"
+    },
+    "name": "Onkar Vijay Bhalane",
+    "email": "obhalane@gmail.com",
+    "phone": "07249603542",
+    "segment": "wildlife",
+    "message": "vhajg j jkwdkjed dkjewhdkjw kjkhwdjk. kjjddhw dkjhdkjdh dkjjdhkjehdekjw kcjjhwckjwhjkc khekwjw kjhkvhajg j jkwdkjed dkjewhdkjw kjkhwdjk. kjjddhw dkjhdkjdh dkjjdhkjehdekjw kcjjhwckjwhjkc khekwjw kjhkvhajg j jkwdkjed dkjewhdkjw kjkhwdjk. kjjddhw dkjhdkjdh dkjjdhkjehdekjw kcjjhwckjwhjkc khekwjw kjhk",
+    "package_id": null,
+    "package_name": null,
+    "destination_id": null,
+    "status": "contacted",
+    "created_at": "2026-11-08T09:24:04.378824+00:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "_id": {
+      "$oid": "6af16f71109e19ba98dab4de"
+    },
+    "name": "Onkar Vijay Bhalane",
+    "email": "obhalane@gmail.com",
+    "phone": "+917249603542",
+    "segment": "wildlife",
+    "message": "we have plan to visit pench on this weekend",
+    "package_id": "pkg-savannah",
+    "package_name": "Masai Mara Safari",
+    "destination_id": "masai-mara",
+    "status": "archived",
+    "created_at": "2026-11-09T07:00:01.782700+00:00",
+    "ip": "127.0.0.1"
+  }
+]

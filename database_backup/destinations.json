@@ -1,0 +1,405 @@
+[
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df68"
+    },
+    "id": "tadoba",
+    "name": "Tadoba",
+    "region": "Central India \u00b7 Maharashtra",
+    "country": "India",
+    "continent": "asia",
+    "lat": 20.25,
+    "lng": 79.38,
+    "tagline": "The tiger's quiet kingdom",
+    "description": "Tadoba-Andhari is Maharashtra's oldest tiger reserve \u2014 a mosaic of teak forest, bamboo thickets and lakes where tigers, leopards, sloth bears and wild dogs share the same dusty trails.",
+    "banner": "https://images.unsplash.com/photo-1690792422227-95d9afa03027?auto=format&fit=crop&q=80",
+    "highlights": [
+      "Tiger sightings on open forest roads",
+      "Tadoba Lake at golden hour",
+      "Buffer-zone night trails",
+      "Bamboo forests alive with birdsong"
+    ],
+    "wildlife": [
+      "Bengal tiger",
+      "Indian leopard",
+      "Sloth bear",
+      "Dhole",
+      "Gaur",
+      "Crested serpent eagle"
+    ],
+    "best_time": "October to May (peak sightings March\u2013May)",
+    "best_months": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "getting_there": "Fly to Nagpur (NAG), then a 2.5\u20133 hour private transfer by road to the reserve's gates.",
+    "gallery": [
+      "https://images.unsplash.com/photo-1690792422227-95d9afa03027?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1586617356423-52763004deac?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&q=80"
+    ],
+    "order": 0
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df69"
+    },
+    "id": "kaziranga",
+    "name": "Kaziranga",
+    "region": "Northeast India \u00b7 Assam",
+    "country": "India",
+    "continent": "asia",
+    "lat": 26.58,
+    "lng": 93.17,
+    "tagline": "Grasslands of the one-horned rhino",
+    "description": "On the floodplains of the Brahmaputra, Kaziranga's elephant grass and wetlands shelter the world's largest population of the greater one-horned rhinoceros, alongside wild buffalo, swamp deer and tigers.",
+    "banner": "https://images.unsplash.com/photo-1675296098616-53e3d4a1dd57?auto=format&fit=crop&q=80",
+    "highlights": [
+      "Greater one-horned rhino",
+      "Wetland birding in the western range",
+      "Tea estate stays",
+      "Brahmaputra river sunsets"
+    ],
+    "wildlife": [
+      "Greater one-horned rhino",
+      "Wild water buffalo",
+      "Eastern swamp deer",
+      "Asian elephant",
+      "Bengal florican"
+    ],
+    "best_time": "November to April (park closed during monsoon)",
+    "best_months": [
+      2,
+      2,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2
+    ],
+    "getting_there": "Fly to Guwahati (GAU) or Jorhat (JRH), followed by a scenic road transfer of 4\u20135 hours (Guwahati) or 2 hours (Jorhat).",
+    "gallery": [
+      "https://images.unsplash.com/photo-1675296098616-53e3d4a1dd57?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1655288212750-dedac22f84d7?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1709008502171-091ceb32b28b?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1486365227551-f3f90034a57c?auto=format&fit=crop&q=80"
+    ],
+    "order": 1
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df6a"
+    },
+    "id": "masai-mara",
+    "name": "Masai Mara",
+    "region": "East Africa \u00b7 Kenya",
+    "country": "Kenya",
+    "continent": "africa",
+    "lat": -1.49,
+    "lng": 35.14,
+    "tagline": "The great theatre of the savannah",
+    "description": "Kenya's Masai Mara is endless golden grassland punctuated by acacia \u2014 home to lion prides, cheetah, elephant herds and, between July and October, the Great Migration's dramatic river crossings.",
+    "banner": "https://images.unsplash.com/photo-1521651201144-634f700b36ef?auto=format&fit=crop&q=80",
+    "highlights": [
+      "Great Migration river crossings",
+      "Big cat territories",
+      "Sundowners on the plains",
+      "Maasai community visits"
+    ],
+    "wildlife": [
+      "Lion",
+      "Cheetah",
+      "African elephant",
+      "Wildebeest",
+      "Hippopotamus",
+      "Masai giraffe"
+    ],
+    "best_time": "July to October for the migration; January to March for calving and dry season",
+    "best_months": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "getting_there": "Fly into Nairobi (NBO), then a light-aircraft transfer of about 45 minutes to a Mara airstrip.",
+    "gallery": [
+      "https://images.unsplash.com/photo-1521651201144-634f700b36ef?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1709402606682-400133d92ab2?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1505148230895-d9a785a555fa?auto=format&fit=crop&q=80"
+    ],
+    "order": 2
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df6b"
+    },
+    "id": "uttarakhand",
+    "name": "Uttarakhand",
+    "region": "North India \u00b7 Corbett & Himalayan Valleys",
+    "country": "India",
+    "continent": "asia",
+    "lat": 29.53,
+    "lng": 78.77,
+    "tagline": "Sal forests beneath snow peaks",
+    "description": "From Jim Corbett's riverine sal forests to the Himalayan foothills, Uttarakhand pairs tiger country with exceptional birding, pilgrimage towns on the Ganga and views of eternal snow.",
+    "banner": "https://images.unsplash.com/photo-1608942025318-1191eeade556?auto=format&fit=crop&q=80",
+    "highlights": [
+      "Corbett's Ramganga river",
+      "Himalayan birding trails",
+      "Rishikesh and the Ganga",
+      "Panoramic snow-peak viewpoints"
+    ],
+    "wildlife": [
+      "Bengal tiger",
+      "Asian elephant",
+      "Himalayan monal",
+      "Gharial",
+      "Great hornbill"
+    ],
+    "best_time": "October to June (Corbett core zones mid-November to mid-June)",
+    "best_months": [
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2
+    ],
+    "getting_there": "Fly to Dehradun (DED) or Pantnagar (PGH); or take the train to Kathgodam or Ramnagar.",
+    "gallery": [
+      "https://images.unsplash.com/photo-1608942025318-1191eeade556?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1645033393602-4f7623917853?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1506452305024-9d3f02d1c9b5?auto=format&fit=crop&q=80"
+    ],
+    "order": 3
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df6c"
+    },
+    "id": "rajasthan",
+    "name": "Rajasthan",
+    "region": "West India \u00b7 The Thar",
+    "country": "India",
+    "continent": "asia",
+    "lat": 26.4,
+    "lng": 73.6,
+    "tagline": "Desert forts and leopard hills",
+    "description": "Rajasthan's honey-coloured forts, palace hotels and granite hills where leopards live alongside shepherd communities \u2014 a land where heritage and wilderness meet.",
+    "banner": "https://images.unsplash.com/photo-1599661046274-f1154c4ea62b?auto=format&fit=crop&q=80",
+    "highlights": [
+      "Leopard safaris in granite hills",
+      "Palace and fort stays",
+      "Desert camps beneath the stars",
+      "Artisan workshops"
+    ],
+    "wildlife": [
+      "Indian leopard",
+      "Striped hyena",
+      "Blackbuck",
+      "Demoiselle crane",
+      "Desert fox"
+    ],
+    "best_time": "October to March",
+    "best_months": [
+      2,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      2
+    ],
+    "getting_there": "Fly to Jaipur (JAI), Jodhpur (JDH) or Udaipur (UDR); private road transfers between regions.",
+    "gallery": [
+      "https://images.unsplash.com/photo-1599661046274-f1154c4ea62b?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1534759846116-5799c33ce22a?auto=format&fit=crop&q=80"
+    ],
+    "order": 4
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df6d"
+    },
+    "id": "kerala",
+    "name": "Kerala",
+    "region": "South India \u00b7 Western Ghats",
+    "country": "India",
+    "continent": "asia",
+    "lat": 9.6,
+    "lng": 76.9,
+    "tagline": "Backwaters, spice and silence",
+    "description": "Kerala drifts between emerald backwaters, cardamom-scented hills and the forests of Periyar \u2014 a gentle, sensory journey through God's own country.",
+    "banner": "https://images.unsplash.com/photo-1661174607003-d9d36388c916?auto=format&fit=crop&q=80",
+    "highlights": [
+      "Private houseboat on Vembanad",
+      "Spice plantation walks",
+      "Periyar forest trails",
+      "Ayurvedic wellness"
+    ],
+    "wildlife": [
+      "Asian elephant",
+      "Malabar giant squirrel",
+      "Nilgiri langur",
+      "Kingfishers",
+      "Great hornbill"
+    ],
+    "best_time": "September to March",
+    "best_months": [
+      2,
+      2,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      2
+    ],
+    "getting_there": "Fly to Kochi (COK); road transfers to the backwaters (1.5 hours) and Thekkady (4 hours).",
+    "gallery": [
+      "https://images.unsplash.com/photo-1661174607003-d9d36388c916?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1624554305378-0f440dd3a8c1?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1601544829024-bc7f4c2213c5?auto=format&fit=crop&q=80"
+    ],
+    "order": 5
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df6e"
+    },
+    "id": "spiti",
+    "name": "Spiti",
+    "region": "North India \u00b7 Trans-Himalaya",
+    "country": "India",
+    "continent": "asia",
+    "lat": 32.25,
+    "lng": 78.03,
+    "tagline": "The cold desert of the snow leopard",
+    "description": "Spiti is a high-altitude desert of ancient monasteries, fossil-strewn valleys and villages above 4,000 metres \u2014 and, in winter, one of the best places on Earth to search for the snow leopard.",
+    "banner": "https://images.unsplash.com/photo-1653844573020-71f77a0ccb8c?auto=format&fit=crop&q=80",
+    "highlights": [
+      "Snow leopard tracking in winter",
+      "Key and Dhankar monasteries",
+      "Homestays in Kibber and Langza",
+      "Star-filled night skies"
+    ],
+    "wildlife": [
+      "Snow leopard",
+      "Himalayan ibex",
+      "Red fox",
+      "Bharal (blue sheep)",
+      "Golden eagle"
+    ],
+    "best_time": "June to September for touring; January to March for snow leopard tracking",
+    "best_months": [
+      2,
+      2,
+      2,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "getting_there": "Fly to Chandigarh (IXC) or Bhuntar (KUU), then a gradual road ascent via Shimla and Kinnaur for acclimatisation.",
+    "gallery": [
+      "https://images.unsplash.com/photo-1653844573020-71f77a0ccb8c?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1652514284048-a297d43ab05d?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1526290725625-4f1e2f8766bd?auto=format&fit=crop&q=80"
+    ],
+    "order": 6
+  },
+  {
+    "_id": {
+      "$oid": "6ae838eade63bbb40f5f0633"
+    },
+    "id": "harishchandragadh",
+    "name": "HArishchandragadh",
+    "region": "NAshik",
+    "country": "India",
+    "continent": "asia",
+    "lat": 19.39,
+    "lng": 73.78,
+    "tagline": "HArishchandragadh trelkkkkk",
+    "description": "HArishchandragadh trelkkkkk DescriptionHArishchandragadh trelkkkkk DescriptionHArishchandragadh trelkkkkk DescriptionHArishchandragadh trelkkkkk DescriptionHArishchandragadh trelkkkkk DescriptionHArishchandragadh trelkkkkk Description",
+    "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxU8EOJJXQDc0wGEycAXf7P3qR-dNy82ulPV-idpcXKg&s=10",
+    "highlights": [],
+    "wildlife": [],
+    "best_time": "july - dec",
+    "best_months": [],
+    "getting_there": "car",
+    "gallery": [],
+    "created_at": "2026-11-02T07:16:58.759116+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6af17343109e19ba98dab4e5"
+    },
+    "id": "nagpur",
+    "name": "nagpur",
+    "region": "center",
+    "country": "India",
+    "continent": "asia",
+    "lat": 21.146633,
+    "lng": 79.08886,
+    "tagline": "nagpurrrrrrr",
+    "description": "nagpurrrrrrrnagpurrrrrrrnagpurrrrrrrnagpurrrrrrrnagpurrrrrrr",
+    "banner": "/api/files/sacred-vista/uploads/3a5f3f52-04d4-49ca-853d-f08d42423ced.jpg",
+    "highlights": [],
+    "wildlife": [],
+    "best_time": "any time",
+    "best_months": [],
+    "getting_there": "by car",
+    "gallery": [],
+    "created_at": "2026-11-09T07:16:19.932389+00:00"
+  }
+]

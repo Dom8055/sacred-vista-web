@@ -1,0 +1,109 @@
+@import "lenis/dist/lenis.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 42 45% 93%;
+    --foreground: 140 10% 15%;
+    --card: 42 45% 93%;
+    --card-foreground: 140 10% 15%;
+    --popover: 42 45% 95%;
+    --popover-foreground: 140 10% 15%;
+    --primary: 153 32% 12%;
+    --primary-foreground: 42 45% 93%;
+    --secondary: 43 22% 89%;
+    --secondary-foreground: 140 10% 15%;
+    --muted: 43 22% 89%;
+    --muted-foreground: 140 6% 32%;
+    --accent: 35 41% 51%;
+    --accent-foreground: 153 32% 12%;
+    --destructive: 0 62% 42%;
+    --destructive-foreground: 42 45% 93%;
+    --border: 38 35% 76%;
+    --input: 38 35% 70%;
+    --ring: 35 41% 51%;
+    --radius: 0.25rem;
+  }
+  * { @apply border-border; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    @apply bg-ivory text-char font-sans antialiased;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  ::selection { background: #B68B50; color: #14271F; }
+  :focus-visible { outline: 2px solid #B68B50; outline-offset: 3px; }
+  h1, h2, h3, h4 { @apply font-serif; }
+}
+
+@layer components {
+  .eyebrow { @apply font-sans text-[11px] sm:text-xs font-semibold uppercase tracking-[0.32em] text-gold; }
+  .shell { @apply mx-auto w-full max-w-[1440px] px-5 sm:px-8 lg:px-14; }
+  .btn-gold { @apply inline-flex items-center gap-3 rounded-full bg-gold px-7 py-3.5 text-sm font-semibold tracking-wide text-forest transition-[background-color,transform] duration-300 hover:bg-sand active:scale-[0.98]; }
+  .btn-ghost { @apply inline-flex items-center gap-3 rounded-full border border-ivory/40 px-7 py-3.5 text-sm font-semibold tracking-wide text-ivory transition-[background-color,border-color,color] duration-300 hover:border-ivory hover:bg-ivory hover:text-forest; }
+  .btn-dark { @apply inline-flex items-center gap-3 rounded-full bg-forest px-7 py-3.5 text-sm font-semibold tracking-wide text-ivory transition-[background-color,transform] duration-300 hover:bg-char active:scale-[0.98]; }
+  .link-line { @apply relative inline-flex items-center gap-2; }
+  .link-line::after { content: ""; @apply absolute -bottom-1 left-0 h-px w-full origin-right scale-x-0 bg-current transition-transform duration-500; }
+  .link-line:hover::after { @apply origin-left scale-x-100; }
+  .grain::before {
+    content: ""; position: absolute; inset: 0; pointer-events: none; z-index: 1; opacity: 0.12; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  .field { @apply w-full rounded-none border-0 border-b border-char/25 bg-transparent px-0 py-3 text-base text-char placeholder:text-char/45 focus:border-gold focus:outline-none focus:ring-0 transition-colors; }
+  .field-dark { @apply border-ivory/25 text-ivory placeholder:text-ivory/45; }
+  .field-dark:-webkit-autofill,
+  .field-dark:-webkit-autofill:hover,
+  .field-dark:-webkit-autofill:focus {
+    -webkit-text-fill-color: #FAF6EE !important;
+    -webkit-box-shadow: 0 0 0 1000px #18221b inset !important;
+    box-shadow: 0 0 0 1000px #18221b inset !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+  .glass-input {
+    @apply mt-1.5 w-full rounded-xl border border-white/20 bg-white/[0.07] px-4 py-3 text-sm text-ivory placeholder:text-ivory/45 backdrop-blur-md transition-all duration-200 focus:border-gold focus:bg-white/[0.12] focus:outline-none;
+  }
+  .glass-input:-webkit-autofill,
+  .glass-input:-webkit-autofill:hover,
+  .glass-input:-webkit-autofill:focus,
+  .glass-input:-webkit-autofill:active {
+    -webkit-text-fill-color: #FAF6EE !important;
+    caret-color: #FAF6EE !important;
+    -webkit-box-shadow: 0 0 0 1000px rgba(24, 45, 36, 0.85) inset !important;
+    box-shadow: 0 0 0 1000px rgba(24, 45, 36, 0.85) inset !important;
+    border-color: rgba(255, 255, 255, 0.22) !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { scrollbar-width: none; }
+}
+
+/* ── Themed scrollbar (gold on dark) ── */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #B68B50;
+  border-radius: 9999px;
+  transition: background 0.2s;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E6C983;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #B68B50 transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}

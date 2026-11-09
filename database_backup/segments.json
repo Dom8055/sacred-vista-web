@@ -1,0 +1,93 @@
+[
+  {
+    "_id": {
+      "$oid": "6ae6ffbd7f43e0a91598df61"
+    },
+    "id": "wildlife",
+    "name": "Wildlife",
+    "label": "Wildlife",
+    "headline": "Walk where the tiger writes the rules.",
+    "description": "Private safaris through India's great reserves and the Kenyan savannah, led by naturalists who read the forest like a manuscript.",
+    "accent": "Dawn drives \u00b7 Naturalist-led \u00b7 Small groups",
+    "image": "https://images.unsplash.com/photo-1698382439843-ca033a6079c0?auto=format&fit=crop&q=80",
+    "order": 0
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df62"
+    },
+    "id": "corporate",
+    "name": "Corporate MICE",
+    "label": "Corporate MICE",
+    "headline": "Leadership, recalibrated by the wild.",
+    "description": "Off-sites and incentive journeys set in forest lodges, where strategy sessions end at a riverbank and teams return sharper.",
+    "accent": "Off-sites \u00b7 Incentives \u00b7 Leadership retreats",
+    "image": "https://images.unsplash.com/photo-1789591901246-2d6f0e538fdc?auto=format&fit=crop&q=80",
+    "order": 1
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df63"
+    },
+    "id": "leisure",
+    "name": "Leisure",
+    "label": "Leisure",
+    "headline": "Slow mornings. Unhurried horizons.",
+    "description": "Backwaters, spice hills and private villas \u2014 journeys composed around rest, good food and the quiet luxury of time.",
+    "accent": "Private stays \u00b7 Slow travel \u00b7 Curated dining",
+    "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&q=80",
+    "order": 3
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df64"
+    },
+    "id": "culture",
+    "name": "Culture & Heritage",
+    "label": "Culture & Heritage",
+    "headline": "Forts, folklore and living heritage.",
+    "description": "Royal Rajasthan and village India, experienced through artisans, historians and the families who keep traditions alive.",
+    "accent": "Heritage stays \u00b7 Artisans \u00b7 Storytellers",
+    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80",
+    "order": 5
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df65"
+    },
+    "id": "adventure",
+    "name": "Nature & Adventure",
+    "label": "Nature & Adventure",
+    "headline": "Thin air. Wide silence. Rare cats.",
+    "description": "High-altitude trails in Spiti and the Himalaya, tracking snow leopards and crossing passes few travellers ever see.",
+    "accent": "High altitude \u00b7 Expedition camps \u00b7 Tracking",
+    "image": "https://images.unsplash.com/photo-1653844573020-71f77a0ccb8c?auto=format&fit=crop&q=80",
+    "order": 4
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df66"
+    },
+    "id": "spiritual",
+    "name": "Spiritual",
+    "label": "Spiritual",
+    "headline": "Where rivers become prayer.",
+    "description": "Ganga ghats, forest ashrams and Himalayan monasteries \u2014 reflective journeys with meditation, ritual and stillness.",
+    "accent": "Ghats \u00b7 Meditation \u00b7 Monasteries",
+    "image": "https://images.unsplash.com/photo-1713340546638-5e30e2b7b1fe?auto=format&fit=crop&q=80",
+    "order": 6
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df67"
+    },
+    "id": "school",
+    "name": "School Trips",
+    "label": "School Trips",
+    "headline": "The forest is the finest classroom.",
+    "description": "Safe, structured field expeditions that turn students into young naturalists, with educators and certified guides.",
+    "accent": "Field learning \u00b7 Safety-first \u00b7 Educator-led",
+    "image": "https://images.unsplash.com/photo-1627289496743-8a9a08bb228a?auto=format&fit=crop&q=80",
+    "order": 2
+  }
+]

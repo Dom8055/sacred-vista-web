@@ -1,0 +1,98 @@
+[
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df79"
+    },
+    "id": "g1",
+    "title": "Tigress at first light",
+    "location": "Tadoba",
+    "category": "Wildlife",
+    "image": "https://images.unsplash.com/photo-1698382439843-ca033a6079c0?auto=format&fit=crop&q=80",
+    "shape": "tall",
+    "order": 0
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df7a"
+    },
+    "id": "g2",
+    "title": "Himalayan dawn",
+    "location": "Uttarakhand",
+    "category": "Landscape",
+    "image": "https://images.unsplash.com/photo-1608942025318-1191eeade556?auto=format&fit=crop&q=80",
+    "shape": "wide",
+    "order": 1
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df7b"
+    },
+    "id": "g3",
+    "title": "Common kingfisher",
+    "location": "Corbett",
+    "category": "Birds",
+    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&q=80",
+    "shape": "square",
+    "order": 2
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df7c"
+    },
+    "id": "g4",
+    "title": "Savannah drive",
+    "location": "Masai Mara",
+    "category": "Safari",
+    "image": "https://images.unsplash.com/photo-1709402606682-400133d92ab2?auto=format&fit=crop&q=80",
+    "shape": "wide",
+    "order": 3
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df7d"
+    },
+    "id": "g5",
+    "title": "Rhino in the grass",
+    "location": "Kaziranga",
+    "category": "Wildlife",
+    "image": "https://images.unsplash.com/photo-1675296098616-53e3d4a1dd57?auto=format&fit=crop&q=80",
+    "shape": "square",
+    "order": 4
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df7e"
+    },
+    "id": "g6",
+    "title": "Key Monastery",
+    "location": "Spiti",
+    "category": "Landscape",
+    "image": "https://images.unsplash.com/photo-1653844573020-71f77a0ccb8c?auto=format&fit=crop&q=80",
+    "shape": "tall",
+    "order": 5
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df7f"
+    },
+    "id": "g7",
+    "title": "Blue-eared kingfisher",
+    "location": "Kerala",
+    "category": "Birds",
+    "image": "https://images.unsplash.com/photo-1601544829024-bc7f4c2213c5?auto=format&fit=crop&q=80",
+    "shape": "tall",
+    "order": 6
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df80"
+    },
+    "id": "g8",
+    "title": "Golden hour safari",
+    "location": "Masai Mara",
+    "category": "Safari",
+    "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&q=80",
+    "shape": "square",
+    "order": 7
+  }
+]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc></url>
+  <url><loc>/packages</loc></url>
+  <url><loc>/destinations</loc></url>
+  <url><loc>/gallery</loc></url>
+  <url><loc>/contact</loc></url>
+  <url><loc>/privacy-policy</loc></url>
+  <url><loc>/terms-conditions</loc></url>
+  <url><loc>/payment-conditions</loc></url>
+  <url><loc>/packages/pkg-tiger</loc></url>
+  <url><loc>/packages/pkg-rhino</loc></url>
+  <url><loc>/packages/pkg-savannah</loc></url>
+  <url><loc>/packages/pkg-birding</loc></url>
+  <url><loc>/packages/tour-desert</loc></url>
+  <url><loc>/packages/tour-backwaters</loc></url>
+  <url><loc>/packages/tour-spiti</loc></url>
+  <url><loc>/packages/pkg-corporate-retreat</loc></url>
+  <url><loc>/packages/pkg-spiritual-sanctuary</loc></url>
+  <url><loc>/packages/pkg-school-expedition</loc></url>
+  <url><loc>/destinations/tadoba</loc></url>
+  <url><loc>/destinations/kaziranga</loc></url>
+  <url><loc>/destinations/masai-mara</loc></url>
+  <url><loc>/destinations/uttarakhand</loc></url>
+  <url><loc>/destinations/rajasthan</loc></url>
+  <url><loc>/destinations/kerala</loc></url>
+  <url><loc>/destinations/spiti</loc></url>
+</urlset>

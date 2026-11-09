@@ -1,0 +1,158 @@
+[
+  {
+    "_id": {
+      "$oid": "6ae88cc73a09200aa33a08f2"
+    },
+    "storage_path": "sacred-vista/uploads/ce522f12-110a-4b45-836b-1dacc99f2186.jpg",
+    "original_filename": "test_upload.jpg",
+    "content_type": "image/jpeg",
+    "size": 633,
+    "is_deleted": false,
+    "uploaded_by": "obhalane@gmail.com",
+    "created_at": "2026-11-02T13:14:47.078620+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6ae8b115656c04ed8c68319c"
+    },
+    "storage_path": "sacred-vista/uploads/4c145a68-80bf-44b0-8ca1-0236a4e256e3.jpg",
+    "original_filename": "WhatsApp Image 2026-10-01 at 11.06.08 AM.jpeg",
+    "content_type": "image/jpeg",
+    "size": 72081,
+    "is_deleted": false,
+    "uploaded_by": "obhalane@gmail.com",
+    "created_at": "2026-11-02T15:49:41.152892+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6ae8b143656c04ed8c68319d"
+    },
+    "storage_path": "sacred-vista/uploads/0ec7f79e-7b70-4ebe-a4b4-5b93bb8cdeac.png",
+    "original_filename": "Picsart_26-10-23_12-02-23-889.png",
+    "content_type": "image/png",
+    "size": 2130200,
+    "is_deleted": false,
+    "uploaded_by": "obhalane@gmail.com",
+    "created_at": "2026-11-02T15:50:27.858893+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6ae8b162656c04ed8c68319e"
+    },
+    "storage_path": "sacred-vista/uploads/d7faff23-08cd-478a-8ad5-0e6c19232c95.png",
+    "original_filename": "Picsart_26-10-23_12-02-23-889.png",
+    "content_type": "image/png",
+    "size": 2130200,
+    "is_deleted": false,
+    "uploaded_by": "obhalane@gmail.com",
+    "created_at": "2026-11-02T15:50:58.448087+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6ae8b18e656c04ed8c68319f"
+    },
+    "storage_path": "sacred-vista/uploads/0e25c3f7-42a8-4cd9-87d2-11849cec096f.jpg",
+    "original_filename": "WhatsApp Image 2026-10-01 at 11.06.08 AM.jpeg",
+    "content_type": "image/jpeg",
+    "size": 72081,
+    "is_deleted": false,
+    "uploaded_by": "obhalane@gmail.com",
+    "created_at": "2026-11-02T15:51:42.189199+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6ae8b1e2656c04ed8c6831a1"
+    },
+    "storage_path": "sacred-vista/uploads/0f0ea68c-03ad-4b00-98c6-0d5b9cae2849.png",
+    "original_filename": "Picsart_26-10-23_12-02-23-889.png",
+    "content_type": "image/png",
+    "size": 2130200,
+    "is_deleted": false,
+    "uploaded_by": "obhalane@gmail.com",
+    "created_at": "2026-11-02T15:53:06.849165+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6ae8b211656c04ed8c6831a2"
+    },
+    "storage_path": "sacred-vista/uploads/302fa9a2-89a6-42fa-8cf8-3370c39abfe3.jpg",
+    "original_filename": "WhatsApp Image 2026-10-01 at 11.06.08 AM.jpeg",
+    "content_type": "image/jpeg",
+    "size": 72081,
+    "is_deleted": false,
+    "uploaded_by": "obhalane@gmail.com",
+    "created_at": "2026-11-02T15:53:53.848753+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6ae8b235656c04ed8c6831a3"
+    },
+    "storage_path": "sacred-vista/uploads/a6810263-5dc3-4be9-8553-dac031fa5ac2.png",
+    "original_filename": "Picsart_26-10-23_12-02-23-889.png",
+    "content_type": "image/png",
+    "size": 2130200,
+    "is_deleted": false,
+    "uploaded_by": "obhalane@gmail.com",
+    "created_at": "2026-11-02T15:54:29.877435+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6ae8b255656c04ed8c6831a4"
+    },
+    "storage_path": "sacred-vista/uploads/705d762f-145f-4580-bd49-ee69a347b288.jpg",
+    "original_filename": "WhatsApp Image 2026-10-01 at 11.06.08 AM.jpeg",
+    "content_type": "image/jpeg",
+    "size": 72081,
+    "is_deleted": false,
+    "uploaded_by": "obhalane@gmail.com",
+    "created_at": "2026-11-02T15:55:01.105300+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6af17269109e19ba98dab4e0"
+    },
+    "storage_path": "sacred-vista/uploads/f0e6105e-1da1-4af0-813f-e057fc8913d4.jpg",
+    "original_filename": "WhatsApp Image 2026-10-01 at 11.06.08 AM.jpeg",
+    "content_type": "image/jpeg",
+    "size": 72081,
+    "is_deleted": false,
+    "uploaded_by": "obhalane@gmail.com",
+    "created_at": "2026-11-09T07:12:41.007405+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6af17270109e19ba98dab4e1"
+    },
+    "storage_path": "sacred-vista/uploads/10106f2e-4712-436d-8b8f-2f05f7e7e68f.jpg",
+    "original_filename": "WhatsApp Image 2026-11-05 at 12.06.58 AM.jpeg",
+    "content_type": "image/jpeg",
+    "size": 48019,
+    "is_deleted": false,
+    "uploaded_by": "obhalane@gmail.com",
+    "created_at": "2026-11-09T07:12:48.875390+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6af1727b109e19ba98dab4e2"
+    },
+    "storage_path": "sacred-vista/uploads/a568c642-9507-4c77-9b37-3efc5eb572f4.jpg",
+    "original_filename": "WhatsApp Image 2026-10-01 at 11.06.08 AM.jpeg",
+    "content_type": "image/jpeg",
+    "size": 72081,
+    "is_deleted": false,
+    "uploaded_by": "obhalane@gmail.com",
+    "created_at": "2026-11-09T07:12:59.575531+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6af1733a109e19ba98dab4e4"
+    },
+    "storage_path": "sacred-vista/uploads/3a5f3f52-04d4-49ca-853d-f08d42423ced.jpg",
+    "original_filename": "WhatsApp Image 2026-11-05 at 12.06.58 AM.jpeg",
+    "content_type": "image/jpeg",
+    "size": 48019,
+    "is_deleted": false,
+    "uploaded_by": "obhalane@gmail.com",
+    "created_at": "2026-11-09T07:16:10.475185+00:00"
+  }
+]

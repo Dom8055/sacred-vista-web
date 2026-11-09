@@ -1,0 +1,39 @@
+[
+  {
+    "_id": {
+      "$oid": "6aef9cbd8e73aae8d1fc3948"
+    },
+    "id": "5ae17f44fca54a848f8b40f6f8fdb9fd",
+    "slug": "guyg-37b8d2",
+    "title": "guyg",
+    "subtitle": "ffhgh",
+    "category": "Wildlife",
+    "location": "hghfgfdf",
+    "date": "07 November 2026",
+    "readTime": "2 min read",
+    "author": "jhhfhggfdgf",
+    "authorRole": "Guest Cogdfdgfdntributor",
+    "email": "obhalane@gmail.com",
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&q=80",
+    "excerpt": "ffhgh",
+    "quote": "ghfhgf",
+    "content": "yuyryttyrfyuyryttyrfyuyryttyrfyuyryttyrfyuyryttyrfyuyryttyrfyuyryttyrfyuyryttyrf",
+    "fieldNotes": [
+      "dfdgfdgf",
+      "gghfg",
+      "ggfg"
+    ],
+    "sections": [
+      {
+        "heading": "Field Dispatch",
+        "body": [
+          "yuyryttyrfyuyryttyrfyuyryttyrfyuyryttyrfyuyryttyrfyuyryttyrfyuyryttyrfyuyryttyrf"
+        ]
+      }
+    ],
+    "status": "approved",
+    "created_at": "2026-11-07T21:48:45.928953+00:00",
+    "updated_at": "2026-11-07T21:49:08.673349+00:00"
+  }
+]

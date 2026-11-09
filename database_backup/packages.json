@@ -1,0 +1,1577 @@
+[
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df6f"
+    },
+    "id": "pkg-tiger",
+    "title": "Tiger Country Expedition",
+    "destination_id": "tadoba",
+    "segment_id": "wildlife",
+    "duration_days": 5,
+    "price_inr": 145000,
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1586617356423-52763004deac?auto=format&fit=crop&q=80",
+    "group_size": "2\u20136 guests",
+    "best_season": "March \u2013 May",
+    "summary": "Five days of naturalist-led drives across Tadoba's core and buffer zones in search of the Bengal tiger.",
+    "overview": "Designed for travellers who want depth rather than a checklist, this expedition combines morning and afternoon drives with time at a forest lodge on the edge of Tadoba-Andhari. Your naturalist adapts each drive to fresh pugmarks, alarm calls and the reserve's latest movements.",
+    "highlights": [
+      "Up to 6 private jeep safaris",
+      "Dedicated senior naturalist",
+      "Forest lodge on the buffer edge",
+      "Night trail in the buffer zone"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival into tiger country",
+        "location": "Nagpur \u2192 Tadoba",
+        "activities": [
+          "Private airport pickup",
+          "Lodge welcome and briefing",
+          "Sunset walk on the lodge trail"
+        ],
+        "travel": "2.5 hr road transfer"
+      },
+      {
+        "day": 2,
+        "title": "Core zone immersion",
+        "location": "Tadoba core",
+        "activities": [
+          "Dawn safari in Moharli zone",
+          "Lakeside breakfast",
+          "Afternoon safari"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 3,
+        "title": "Tracking the tigress",
+        "location": "Kolara & Navegaon",
+        "activities": [
+          "Full-day tracking with packed lunch",
+          "Photography guidance from your naturalist"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 4,
+        "title": "Buffer zone & night trail",
+        "location": "Tadoba buffer",
+        "activities": [
+          "Morning safari",
+          "Village craft visit",
+          "Guided night trail"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 5,
+        "title": "Last light, then home",
+        "location": "Tadoba \u2192 Nagpur",
+        "activities": [
+          "Final morning safari",
+          "Transfer to Nagpur airport"
+        ],
+        "travel": "2.5 hr road transfer"
+      }
+    ],
+    "inclusions": [
+      "4 nights forest lodge accommodation",
+      "All meals at the lodge",
+      "6 shared-core jeep safaris",
+      "Park entry and naturalist fees",
+      "Private airport transfers"
+    ],
+    "exclusions": [
+      "Flights to and from Nagpur",
+      "Camera fees at the park",
+      "Personal expenses and gratuities",
+      "Travel insurance"
+    ],
+    "info": [
+      "Safari permits are issued against passport/ID details shared at inquiry.",
+      "Core zones are closed on Tuesdays.",
+      "Neutral-coloured clothing recommended."
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1586617356423-52763004deac?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1586618749351-8b86b75c5320?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1690792422227-95d9afa03027?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&q=80",
+      "/api/files/sacred-vista/uploads/4c145a68-80bf-44b0-8ca1-0236a4e256e3.jpg"
+    ],
+    "route": [
+      {
+        "day": "01",
+        "name": "Nagpur",
+        "lat": 21.15,
+        "lng": 79.09
+      },
+      {
+        "day": "01\u201302",
+        "name": "Moharli \u00b7 Tadoba core",
+        "lat": 20.2,
+        "lng": 79.38
+      },
+      {
+        "day": "03",
+        "name": "Kolara",
+        "lat": 20.45,
+        "lng": 79.42
+      },
+      {
+        "day": "04",
+        "name": "Tadoba buffer",
+        "lat": 20.08,
+        "lng": 79.25
+      },
+      {
+        "day": "05",
+        "name": "Nagpur",
+        "lat": 21.15,
+        "lng": 79.09
+      }
+    ],
+    "order": 0,
+    "updated_at": "2026-11-02T15:49:46.502933+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df70"
+    },
+    "id": "pkg-rhino",
+    "title": "Kaziranga Rhino Safari",
+    "destination_id": "kaziranga",
+    "segment_id": "wildlife",
+    "duration_days": 4,
+    "price_inr": 98000,
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1655288212750-dedac22f84d7?auto=format&fit=crop&q=80",
+    "group_size": "2\u20138 guests",
+    "best_season": "November \u2013 April",
+    "summary": "Elephant-grass plains, wetland birding and close encounters with the greater one-horned rhino.",
+    "overview": "Kaziranga's ranges each have their own personality. Over four days you explore the central, western and eastern ranges by jeep, stay at a tea-estate bungalow and spend an evening on the Brahmaputra.",
+    "highlights": [
+      "Central, western and eastern ranges",
+      "Tea estate heritage stay",
+      "Brahmaputra sunset cruise",
+      "Wetland birding"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Into the floodplains",
+        "location": "Jorhat \u2192 Kaziranga",
+        "activities": [
+          "Airport pickup",
+          "Tea estate check-in",
+          "Evening tea tasting"
+        ],
+        "travel": "2 hr road transfer"
+      },
+      {
+        "day": 2,
+        "title": "Central & western ranges",
+        "location": "Kohora \u00b7 Bagori",
+        "activities": [
+          "Morning jeep safari",
+          "Afternoon wetland safari"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 3,
+        "title": "Eastern range birding",
+        "location": "Agaratoli",
+        "activities": [
+          "Birding safari",
+          "Brahmaputra sunset cruise"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 4,
+        "title": "Farewell to Assam",
+        "location": "Kaziranga \u2192 Jorhat",
+        "activities": [
+          "Leisurely breakfast",
+          "Airport transfer"
+        ],
+        "travel": "2 hr road transfer"
+      }
+    ],
+    "inclusions": [
+      "3 nights tea-estate accommodation",
+      "All meals",
+      "4 jeep safaris",
+      "Sunset river cruise",
+      "Airport transfers"
+    ],
+    "exclusions": [
+      "Flights",
+      "Camera fees",
+      "Personal expenses",
+      "Travel insurance"
+    ],
+    "info": [
+      "Park ranges open roughly November to April.",
+      "Elephant-back rides are not part of our itineraries."
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1655288212750-dedac22f84d7?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1675296098616-53e3d4a1dd57?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1709008502171-091ceb32b28b?auto=format&fit=crop&q=80",
+      "https://images.pexels.com/photos/30317733/pexels-photo-30317733.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "route": [
+      {
+        "day": "01",
+        "name": "Jorhat",
+        "lat": 26.75,
+        "lng": 94.2
+      },
+      {
+        "day": "01\u201302",
+        "name": "Kohora",
+        "lat": 26.6,
+        "lng": 93.4
+      },
+      {
+        "day": "02",
+        "name": "Bagori",
+        "lat": 26.64,
+        "lng": 93.2
+      },
+      {
+        "day": "03",
+        "name": "Agaratoli",
+        "lat": 26.67,
+        "lng": 93.62
+      },
+      {
+        "day": "04",
+        "name": "Jorhat",
+        "lat": 26.75,
+        "lng": 94.2
+      }
+    ],
+    "order": 1
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df71"
+    },
+    "id": "pkg-savannah",
+    "title": "Masai Mara Safari",
+    "destination_id": "masai-mara",
+    "segment_id": "wildlife",
+    "duration_days": 7,
+    "price_inr": 425000,
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1526226128118-9ef71fc2f34b?auto=format&fit=crop&q=80",
+    "group_size": "2\u20136 guests",
+    "best_season": "July \u2013 October",
+    "summary": "A week on the Kenyan savannah \u2014 big cats, elephant herds and, in season, the Great Migration.",
+    "overview": "Fly from Nairobi straight onto the plains. Stay in a tented camp in the Mara ecosystem, with full-day game drives, a dawn hot-air balloon option and an evening with a Maasai community guide.",
+    "highlights": [
+      "Tented camp on the plains",
+      "Full-day game drives",
+      "Optional hot-air balloon at dawn",
+      "Maasai community evening"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Nairobi",
+        "location": "Nairobi",
+        "activities": [
+          "Airport meet and greet",
+          "Boutique hotel overnight"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 2,
+        "title": "Flight to the Mara",
+        "location": "Nairobi \u2192 Masai Mara",
+        "activities": [
+          "Light-aircraft transfer",
+          "Afternoon game drive"
+        ],
+        "travel": "45 min flight"
+      },
+      {
+        "day": 3,
+        "title": "Big cat territories",
+        "location": "Central Mara",
+        "activities": [
+          "Full-day game drive with picnic lunch"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 4,
+        "title": "The river",
+        "location": "Mara River",
+        "activities": [
+          "Migration crossings in season",
+          "Hippo pools"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 5,
+        "title": "Above the plains",
+        "location": "Masai Mara",
+        "activities": [
+          "Optional dawn balloon flight",
+          "Afternoon drive",
+          "Sundowners"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 6,
+        "title": "Community & conservation",
+        "location": "Mara conservancy",
+        "activities": [
+          "Walking safari",
+          "Maasai community evening"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 7,
+        "title": "Return to Nairobi",
+        "location": "Masai Mara \u2192 Nairobi",
+        "activities": [
+          "Morning drive",
+          "Flight to Nairobi for departure"
+        ],
+        "travel": "45 min flight"
+      }
+    ],
+    "inclusions": [
+      "1 night Nairobi, 5 nights tented camp",
+      "All meals in camp",
+      "Shared game drives",
+      "Conservancy and park fees",
+      "Nairobi\u2013Mara return flights"
+    ],
+    "exclusions": [
+      "International flights",
+      "Kenya eVisa",
+      "Balloon flight",
+      "Travel insurance",
+      "Gratuities"
+    ],
+    "info": [
+      "Soft luggage limit of 15 kg on light aircraft.",
+      "Yellow fever vaccination may be required depending on your route."
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1526226128118-9ef71fc2f34b?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1505148230895-d9a785a555fa?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1709402606682-400133d92ab2?auto=format&fit=crop&q=80"
+    ],
+    "route": [
+      {
+        "day": "01",
+        "name": "Nairobi",
+        "lat": -1.29,
+        "lng": 36.82
+      },
+      {
+        "day": "02",
+        "name": "Masai Mara",
+        "lat": -1.4,
+        "lng": 35.1
+      },
+      {
+        "day": "03",
+        "name": "Central Mara",
+        "lat": -1.52,
+        "lng": 35.25
+      },
+      {
+        "day": "04",
+        "name": "Mara River",
+        "lat": -1.58,
+        "lng": 34.98
+      },
+      {
+        "day": "06",
+        "name": "Mara conservancy",
+        "lat": -1.3,
+        "lng": 35.15
+      },
+      {
+        "day": "07",
+        "name": "Nairobi",
+        "lat": -1.29,
+        "lng": 36.82
+      }
+    ],
+    "order": 2
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df72"
+    },
+    "id": "pkg-birding",
+    "title": "Himalayan Birding Trail",
+    "destination_id": "uttarakhand",
+    "segment_id": "wildlife",
+    "duration_days": 6,
+    "price_inr": 115000,
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&q=80",
+    "group_size": "2\u20138 guests",
+    "best_season": "November \u2013 April",
+    "summary": "From Corbett's riverbanks to the oak forests of the foothills \u2014 a trail for patient eyes.",
+    "overview": "A specialist birding journey with an ornithologist guide, moving from Corbett's riverine habitats up to mid-altitude Himalayan forests where laughingthrushes and monals live.",
+    "highlights": [
+      "Ornithologist guide throughout",
+      "Corbett riverine birding",
+      "Himalayan forest trails",
+      "Snow-peak sunrise point"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival at the river",
+        "location": "Ramnagar",
+        "activities": [
+          "Pickup at Kathgodam/Pantnagar",
+          "Kosi river evening walk"
+        ],
+        "travel": "2 hr road transfer"
+      },
+      {
+        "day": 2,
+        "title": "Corbett by jeep",
+        "location": "Corbett \u00b7 Dhikala",
+        "activities": [
+          "Dawn birding safari",
+          "Afternoon grassland drive"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 3,
+        "title": "River specialists",
+        "location": "Ramganga",
+        "activities": [
+          "Wallcreeper and forktail search",
+          "Riverside picnic"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 4,
+        "title": "Into the hills",
+        "location": "Corbett \u2192 Pangot",
+        "activities": [
+          "Scenic drive",
+          "Evening forest walk"
+        ],
+        "travel": "3 hr road transfer"
+      },
+      {
+        "day": 5,
+        "title": "High forest birding",
+        "location": "Pangot \u00b7 Vinayak",
+        "activities": [
+          "Full-day birding",
+          "Sunrise peak viewpoint"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "location": "Pangot \u2192 Kathgodam",
+        "activities": [
+          "Morning walk",
+          "Station/airport transfer"
+        ],
+        "travel": "2 hr road transfer"
+      }
+    ],
+    "inclusions": [
+      "5 nights lodge accommodation",
+      "All meals",
+      "Ornithologist guide",
+      "2 jeep safaris",
+      "Transfers"
+    ],
+    "exclusions": [
+      "Train/flights",
+      "Camera fees",
+      "Personal expenses"
+    ],
+    "info": [
+      "Binoculars available on request.",
+      "Mornings in the hills can be near freezing in winter."
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1486365227551-f3f90034a57c?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1645033393602-4f7623917853?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1506452305024-9d3f02d1c9b5?auto=format&fit=crop&q=80"
+    ],
+    "route": [
+      {
+        "day": "01",
+        "name": "Ramnagar",
+        "lat": 29.39,
+        "lng": 79.12
+      },
+      {
+        "day": "02",
+        "name": "Dhikala",
+        "lat": 29.55,
+        "lng": 78.86
+      },
+      {
+        "day": "03",
+        "name": "Ramganga",
+        "lat": 29.47,
+        "lng": 78.97
+      },
+      {
+        "day": "04\u201305",
+        "name": "Pangot",
+        "lat": 29.43,
+        "lng": 79.43
+      },
+      {
+        "day": "06",
+        "name": "Kathgodam",
+        "lat": 29.27,
+        "lng": 79.54
+      }
+    ],
+    "order": 3
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df73"
+    },
+    "id": "tour-desert",
+    "title": "Desert Forts & Leopard Trails",
+    "destination_id": "rajasthan",
+    "segment_id": "culture",
+    "duration_days": 6,
+    "price_inr": 165000,
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80",
+    "group_size": "2\u20138 guests",
+    "best_season": "October \u2013 March",
+    "summary": "Palace stays, fort walks and leopard safaris in Rajasthan's granite hills.",
+    "overview": "A journey through royal Rajasthan with a historian in Jaipur, artisan visits in the villages and two evenings in leopard country, where big cats share hills with shepherd communities.",
+    "highlights": [
+      "Private fort walk with a historian",
+      "Palace hotel stay",
+      "Leopard safaris at dusk",
+      "Desert camp under the stars"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "The Pink City",
+        "location": "Jaipur",
+        "activities": [
+          "Arrival and palace check-in",
+          "Evening bazaar walk"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 2,
+        "title": "Forts of Amer",
+        "location": "Jaipur",
+        "activities": [
+          "Historian-led Amber Fort visit",
+          "Block-print workshop"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 3,
+        "title": "Into leopard country",
+        "location": "Jaipur \u2192 Jawai",
+        "activities": [
+          "Scenic drive",
+          "Dusk leopard safari"
+        ],
+        "travel": "5 hr road transfer"
+      },
+      {
+        "day": 4,
+        "title": "Granite hills",
+        "location": "Jawai",
+        "activities": [
+          "Dawn safari",
+          "Shepherd community visit",
+          "Evening safari"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 5,
+        "title": "Desert night",
+        "location": "Jawai \u2192 desert camp",
+        "activities": [
+          "Camel cart sunset",
+          "Folk music dinner"
+        ],
+        "travel": "3 hr road transfer"
+      },
+      {
+        "day": 6,
+        "title": "Farewell",
+        "location": "Jodhpur",
+        "activities": [
+          "Mehrangarh Fort morning",
+          "Airport transfer"
+        ],
+        "travel": "1 hr road transfer"
+      }
+    ],
+    "inclusions": [
+      "5 nights palace, lodge and camp stays",
+      "Daily breakfast and dinner",
+      "4 leopard safaris",
+      "Historian and guides",
+      "Private vehicle"
+    ],
+    "exclusions": [
+      "Flights",
+      "Monument camera fees",
+      "Lunches",
+      "Personal expenses"
+    ],
+    "info": [
+      "Modest clothing recommended at temples.",
+      "Desert nights in winter are cold \u2014 pack layers."
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1599661046274-f1154c4ea62b?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1534759846116-5799c33ce22a?auto=format&fit=crop&q=80"
+    ],
+    "route": [
+      {
+        "day": "01\u201302",
+        "name": "Jaipur",
+        "lat": 26.91,
+        "lng": 75.79
+      },
+      {
+        "day": "03\u201304",
+        "name": "Jawai",
+        "lat": 25.1,
+        "lng": 73.15
+      },
+      {
+        "day": "05",
+        "name": "Desert camp",
+        "lat": 26.72,
+        "lng": 72.91
+      },
+      {
+        "day": "06",
+        "name": "Jodhpur",
+        "lat": 26.24,
+        "lng": 73.02
+      }
+    ],
+    "order": 4
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df74"
+    },
+    "id": "tour-backwaters",
+    "title": "Backwaters & Spice Journey",
+    "destination_id": "kerala",
+    "segment_id": "leisure",
+    "duration_days": 5,
+    "price_inr": 110000,
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&q=80",
+    "group_size": "2\u20136 guests",
+    "best_season": "September \u2013 March",
+    "summary": "A private houseboat, spice hills and forest trails \u2014 Kerala at its most unhurried.",
+    "overview": "Begin in Kochi's old quarter, climb to the cardamom hills of Thekkady and end aboard a private houseboat drifting through the Vembanad backwaters.",
+    "highlights": [
+      "Private houseboat night",
+      "Spice plantation walk",
+      "Periyar bamboo rafting",
+      "Kathakali performance"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Old Kochi",
+        "location": "Kochi",
+        "activities": [
+          "Heritage walk",
+          "Kathakali evening"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 2,
+        "title": "Spice hills",
+        "location": "Kochi \u2192 Thekkady",
+        "activities": [
+          "Plantation walk",
+          "Ayurvedic massage"
+        ],
+        "travel": "4 hr road transfer"
+      },
+      {
+        "day": 3,
+        "title": "Periyar forest",
+        "location": "Thekkady",
+        "activities": [
+          "Bamboo rafting",
+          "Nature trail"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 4,
+        "title": "The houseboat",
+        "location": "Kumarakom",
+        "activities": [
+          "Private houseboat cruise",
+          "Sunset on Vembanad"
+        ],
+        "travel": "3 hr road transfer"
+      },
+      {
+        "day": 5,
+        "title": "Departure",
+        "location": "Kumarakom \u2192 Kochi",
+        "activities": [
+          "Village canoe ride",
+          "Airport transfer"
+        ],
+        "travel": "1.5 hr road transfer"
+      }
+    ],
+    "inclusions": [
+      "3 nights resort stays + 1 night houseboat",
+      "Breakfast daily, all meals on houseboat",
+      "Activities listed",
+      "Private vehicle"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches on land",
+      "Personal expenses"
+    ],
+    "info": [
+      "Light cotton clothing recommended year-round.",
+      "Monsoon months (June\u2013August) bring heavy rain."
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1661174607003-d9d36388c916?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1624554305378-0f440dd3a8c1?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1601544829024-bc7f4c2213c5?auto=format&fit=crop&q=80"
+    ],
+    "route": [
+      {
+        "day": "01",
+        "name": "Kochi",
+        "lat": 9.93,
+        "lng": 76.27
+      },
+      {
+        "day": "02\u201303",
+        "name": "Thekkady",
+        "lat": 9.6,
+        "lng": 77.16
+      },
+      {
+        "day": "04",
+        "name": "Kumarakom",
+        "lat": 9.61,
+        "lng": 76.43
+      },
+      {
+        "day": "05",
+        "name": "Kochi",
+        "lat": 9.93,
+        "lng": 76.27
+      }
+    ],
+    "order": 5
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df75"
+    },
+    "id": "tour-spiti",
+    "title": "Spiti Winter Wildlife Trail",
+    "destination_id": "spiti",
+    "segment_id": "adventure",
+    "duration_days": 8,
+    "price_inr": 185000,
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?auto=format&fit=crop&q=80",
+    "group_size": "2\u20136 guests",
+    "best_season": "January \u2013 March",
+    "summary": "Track the snow leopard with local spotters in the frozen valleys of Spiti.",
+    "overview": "A carefully acclimatised winter expedition with local spotters from Kibber, staying in heated homestays and spending each day scanning cliffs for snow leopard, ibex and blue sheep.",
+    "highlights": [
+      "Local snow leopard spotters",
+      "Heated homestays",
+      "Gradual acclimatisation",
+      "Key Monastery visit"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Shimla",
+        "location": "Chandigarh \u2192 Shimla",
+        "activities": [
+          "Pickup",
+          "Colonial-era hotel stay"
+        ],
+        "travel": "3 hr road transfer"
+      },
+      {
+        "day": 2,
+        "title": "Kinnaur valley",
+        "location": "Shimla \u2192 Sangla",
+        "activities": [
+          "Scenic Sutlej drive"
+        ],
+        "travel": "7 hr road transfer"
+      },
+      {
+        "day": 3,
+        "title": "Climbing slowly",
+        "location": "Sangla \u2192 Tabo",
+        "activities": [
+          "Acclimatisation stop",
+          "Tabo monastery"
+        ],
+        "travel": "6 hr road transfer"
+      },
+      {
+        "day": 4,
+        "title": "Into Spiti",
+        "location": "Tabo \u2192 Kaza",
+        "activities": [
+          "Dhankar monastery",
+          "Rest afternoon"
+        ],
+        "travel": "2 hr road transfer"
+      },
+      {
+        "day": 5,
+        "title": "First tracking day",
+        "location": "Kibber",
+        "activities": [
+          "Spotting with telescopes",
+          "Homestay evening"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 6,
+        "title": "Cliffs of Chicham",
+        "location": "Chicham",
+        "activities": [
+          "Full-day tracking"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 7,
+        "title": "Monastery and valley",
+        "location": "Key \u00b7 Langza",
+        "activities": [
+          "Key Monastery",
+          "Fossil village walk"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 8,
+        "title": "Descent",
+        "location": "Kaza \u2192 Chandigarh",
+        "activities": [
+          "Departure via return route"
+        ],
+        "travel": "Long road transfer"
+      }
+    ],
+    "inclusions": [
+      "7 nights hotel and heated homestays",
+      "All meals",
+      "Local spotters and expedition lead",
+      "4x4 vehicle",
+      "Permits"
+    ],
+    "exclusions": [
+      "Flights",
+      "Winter gear",
+      "Personal expenses",
+      "Travel insurance (mandatory)"
+    ],
+    "info": [
+      "Altitude above 4,000 m \u2014 medical clearance recommended.",
+      "Sightings are never guaranteed; patience is part of the journey."
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1653844573020-71f77a0ccb8c?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1652514284048-a297d43ab05d?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1526290725625-4f1e2f8766bd?auto=format&fit=crop&q=80"
+    ],
+    "route": [
+      {
+        "day": "01",
+        "name": "Shimla",
+        "lat": 31.1,
+        "lng": 77.17
+      },
+      {
+        "day": "02",
+        "name": "Sangla",
+        "lat": 31.42,
+        "lng": 78.26
+      },
+      {
+        "day": "03",
+        "name": "Tabo",
+        "lat": 32.09,
+        "lng": 78.38
+      },
+      {
+        "day": "04",
+        "name": "Kaza",
+        "lat": 32.23,
+        "lng": 78.07
+      },
+      {
+        "day": "05",
+        "name": "Kibber",
+        "lat": 32.33,
+        "lng": 78.01
+      },
+      {
+        "day": "06",
+        "name": "Chicham",
+        "lat": 32.35,
+        "lng": 77.98
+      },
+      {
+        "day": "07",
+        "name": "Key \u00b7 Langza",
+        "lat": 32.27,
+        "lng": 78.08
+      },
+      {
+        "day": "08",
+        "name": "Chandigarh",
+        "lat": 30.73,
+        "lng": 76.78
+      }
+    ],
+    "order": 6
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df76"
+    },
+    "id": "pkg-corporate-retreat",
+    "title": "Corbett Leadership Retreat",
+    "destination_id": "uttarakhand",
+    "segment_id": "corporate",
+    "duration_days": 3,
+    "price_inr": 62000,
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1789591901246-2d6f0e538fdc?auto=format&fit=crop&q=80",
+    "group_size": "10\u201360 guests",
+    "best_season": "October \u2013 June",
+    "summary": "A riverside forest retreat for leadership teams \u2014 sessions, safaris and shared fireside evenings.",
+    "overview": "A compact, high-impact off-site on the edge of Corbett, with a facilitated strategy day, wildlife safaris and team experiences designed around reflection rather than noise.",
+    "highlights": [
+      "Private meeting pavilion",
+      "Facilitated strategy sessions",
+      "Group jeep safaris",
+      "Riverside fireside dinner"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive and reset",
+        "location": "Delhi \u2192 Corbett",
+        "activities": [
+          "Group transfer",
+          "Welcome session",
+          "Fireside dinner"
+        ],
+        "travel": "5 hr road / train"
+      },
+      {
+        "day": 2,
+        "title": "Strategy in the forest",
+        "location": "Corbett",
+        "activities": [
+          "Morning safari",
+          "Facilitated workshop",
+          "Team river walk"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 3,
+        "title": "Return",
+        "location": "Corbett \u2192 Delhi",
+        "activities": [
+          "Closing circle",
+          "Departure"
+        ],
+        "travel": "5 hr road / train"
+      }
+    ],
+    "inclusions": [
+      "2 nights lodge accommodation",
+      "All meals and meeting breaks",
+      "Meeting pavilion with AV",
+      "1 safari per guest",
+      "Group transfers"
+    ],
+    "exclusions": [
+      "External facilitators (on request)",
+      "Alcohol",
+      "Personal expenses"
+    ],
+    "info": [
+      "Price is indicative per guest for groups of 20+.",
+      "Custom agendas built around your objectives."
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1789591901246-2d6f0e538fdc?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1791535767615-2fb43a41e8a8?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1549414279-6984e1b270cd?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&q=80"
+    ],
+    "route": [
+      {
+        "day": "01",
+        "name": "Delhi",
+        "lat": 28.61,
+        "lng": 77.21
+      },
+      {
+        "day": "01\u201302",
+        "name": "Corbett",
+        "lat": 29.53,
+        "lng": 78.77
+      },
+      {
+        "day": "03",
+        "name": "Delhi",
+        "lat": 28.61,
+        "lng": 77.21
+      }
+    ],
+    "order": 7
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df77"
+    },
+    "id": "pkg-spiritual-sanctuary",
+    "title": "Ganga Sanctuary Journey",
+    "destination_id": "uttarakhand",
+    "segment_id": "spiritual",
+    "duration_days": 5,
+    "price_inr": 78000,
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1729922141827-ba9163bfb884?auto=format&fit=crop&q=80",
+    "group_size": "1\u20138 guests",
+    "best_season": "September \u2013 April",
+    "summary": "Rishikesh ghats, riverside meditation and the evening aarti \u2014 a journey into stillness.",
+    "overview": "Stay at a riverside retreat in Rishikesh, practise yoga and meditation with resident teachers, attend the Ganga aarti and walk forest trails to quiet Himalayan temples.",
+    "highlights": [
+      "Daily yoga and meditation",
+      "Ganga aarti at the ghats",
+      "Forest temple walk",
+      "Sattvic cuisine"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival by the river",
+        "location": "Dehradun \u2192 Rishikesh",
+        "activities": [
+          "Transfer",
+          "Riverside orientation"
+        ],
+        "travel": "1 hr road transfer"
+      },
+      {
+        "day": 2,
+        "title": "Rhythm of the ghats",
+        "location": "Rishikesh",
+        "activities": [
+          "Sunrise meditation",
+          "Evening Ganga aarti"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 3,
+        "title": "Forest temples",
+        "location": "Kunjapuri",
+        "activities": [
+          "Sunrise at Kunjapuri",
+          "Forest walk"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 4,
+        "title": "Silence day",
+        "location": "Rishikesh",
+        "activities": [
+          "Guided silent retreat",
+          "Sound healing"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 5,
+        "title": "Departure",
+        "location": "Rishikesh \u2192 Dehradun",
+        "activities": [
+          "Closing practice",
+          "Airport transfer"
+        ],
+        "travel": "1 hr road transfer"
+      }
+    ],
+    "inclusions": [
+      "4 nights riverside retreat",
+      "All sattvic meals",
+      "Yoga and meditation sessions",
+      "Transfers"
+    ],
+    "exclusions": [
+      "Flights",
+      "Personal offerings",
+      "Personal expenses"
+    ],
+    "info": [
+      "Alcohol and non-vegetarian food are not served in Rishikesh.",
+      "Modest clothing at ghats and temples."
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1729922141827-ba9163bfb884?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1713340546638-5e30e2b7b1fe?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1716573260891-23ad993e8833?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1645033393602-4f7623917853?auto=format&fit=crop&q=80"
+    ],
+    "route": [
+      {
+        "day": "01",
+        "name": "Dehradun",
+        "lat": 30.32,
+        "lng": 78.03
+      },
+      {
+        "day": "02",
+        "name": "Rishikesh",
+        "lat": 30.09,
+        "lng": 78.27
+      },
+      {
+        "day": "03",
+        "name": "Kunjapuri",
+        "lat": 30.19,
+        "lng": 78.33
+      },
+      {
+        "day": "04\u201305",
+        "name": "Rishikesh",
+        "lat": 30.09,
+        "lng": 78.27
+      }
+    ],
+    "order": 8
+  },
+  {
+    "_id": {
+      "$oid": "6ae6ffbe7f43e0a91598df78"
+    },
+    "id": "pkg-school-expedition",
+    "title": "Young Naturalists Expedition",
+    "destination_id": "tadoba",
+    "segment_id": "school",
+    "duration_days": 4,
+    "price_inr": 38000,
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1627289496743-8a9a08bb228a?auto=format&fit=crop&q=80",
+    "group_size": "20\u201360 students",
+    "best_season": "October \u2013 February",
+    "summary": "A structured field expedition where students learn tracking, birding and conservation first-hand.",
+    "overview": "Built with educators, this expedition blends safe safaris with field-journal sessions, camera-trap workshops and conversations with forest staff about real conservation work.",
+    "highlights": [
+      "Field journal curriculum",
+      "Camera-trap workshop",
+      "Forest guard interaction",
+      "Safety-first supervision ratio"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Base camp",
+        "location": "Nagpur \u2192 Tadoba",
+        "activities": [
+          "Group transfer",
+          "Safety briefing",
+          "Night-sky session"
+        ],
+        "travel": "2.5 hr road transfer"
+      },
+      {
+        "day": 2,
+        "title": "Reading the forest",
+        "location": "Tadoba buffer",
+        "activities": [
+          "Morning safari",
+          "Pugmark and scat workshop"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 3,
+        "title": "Conservation in action",
+        "location": "Tadoba",
+        "activities": [
+          "Camera-trap workshop",
+          "Talk with forest staff",
+          "Presentations"
+        ],
+        "travel": ""
+      },
+      {
+        "day": 4,
+        "title": "Home with stories",
+        "location": "Tadoba \u2192 Nagpur",
+        "activities": [
+          "Reflection circle",
+          "Return transfer"
+        ],
+        "travel": "2.5 hr road transfer"
+      }
+    ],
+    "inclusions": [
+      "3 nights dormitory-style eco lodge",
+      "All meals",
+      "2 safaris",
+      "Educator kit",
+      "Group transfers"
+    ],
+    "exclusions": [
+      "Rail/air travel to Nagpur",
+      "Personal expenses"
+    ],
+    "info": [
+      "Price is indicative per student for groups of 30+.",
+      "Teacher places complimentary as per group ratio."
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1627289496743-8a9a08bb228a?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1629185752871-d9e9e8e60177?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1704610077766-7a5e0535638c?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&q=80"
+    ],
+    "route": [
+      {
+        "day": "01",
+        "name": "Nagpur",
+        "lat": 21.15,
+        "lng": 79.09
+      },
+      {
+        "day": "02\u201303",
+        "name": "Tadoba",
+        "lat": 20.25,
+        "lng": 79.38
+      },
+      {
+        "day": "04",
+        "name": "Nagpur",
+        "lat": 21.15,
+        "lng": 79.09
+      }
+    ],
+    "order": 9
+  },
+  {
+    "_id": {
+      "$oid": "6ae839cfde63bbb40f5f0634"
+    },
+    "title": "Title 1",
+    "price_inr": 111111,
+    "duration_days": 3,
+    "featured": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Are3INIE93WaWh4mMIVdMPu0BRrfRAvQnDl6YZLewg&s=10",
+    "gallery": [
+      "https://www.google.com/imgres?q=akaza&imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2Fae%2F7c%2Fc4%2Fae7cc4747a283cf82911dc87858182d7.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F109282728449747084%2F&docid=TueYxlGqAxKFmM&tbnid=ewTa-suP_7qUyM&vet=12ahUKEwjp9dqY3uiXAxV4umMGHVBXOTsQnPAOegUI1wEQAA..i&w=736&h=1188&hcb=2&ved=2ahUKEwjp9dqY3uiXAxV4umMGHVBXOTsQnPAOegUI1wEQAA",
+      "https://www.google.com/imgres?q=akaza&imgurl=https%3A%2F%2Feveranta.in%2Fcdn%2Fshop%2Ffiles%2FAkaza_Emotion_Moment_Demon_Slayer_Poster_Main_Image.webp%3Fv%3D1763972487%26width%3D416&imgrefurl=https%3A%2F%2Feveranta.in%2Fproducts%2Fakaza-emotion-moment-demon-slayer-poster%3Fsrsltid%3DAYCX9vJ9rbrrTy61WP5ZmBLMgQgB3glBygVOFBpj3rrhsK57JUf0_74J&docid=2Xz-AUfcZbUEFM&tbnid=xf5JLIQwUeJYAM&vet=12ahUKEwjp9dqY3uiXAxV4umMGHVBXOTsQnPAOegUIzQEQAA..i&w=416&h=485&hcb=2&ved=2ahUKEwjp9dqY3uiXAxV4umMGHVBXOTsQnPAOegUIzQEQAA",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_TN8ymYmynKFXbeIoknPwQ055JgxPnooLHDlXFsSAg&s=10"
+    ],
+    "group_size": "Group size 1",
+    "best_season": "January",
+    "summary": "Short summary Short summary Short summary Short summary Short summary Short summary Short summary Short summary Short summary Short summary Short summary Short summary Short summary Short summary Short summary Short summary Short summary ",
+    "overview": "Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview OverviewOverview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview OverviewOverview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview OverviewOverview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview OverviewOverview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview OverviewOverview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview Overview",
+    "highlights": [
+      "Highlights (one per line) 1",
+      "Highlights (one per line)2",
+      "Highlights (one per line)3",
+      "Highlights (one per line)4",
+      "Highlights (one per line)5",
+      "Highlights (one per line)6",
+      "Highlights (one per line)7"
+    ],
+    "inclusions": [
+      "Inclusions (one per line) 1",
+      "Inclusions (one per line) 2",
+      "Inclusions (one per line) 3",
+      "Inclusions (one per line) 4",
+      "Inclusions (one per line) 5",
+      "Inclusions (one per line) 6"
+    ],
+    "exclusions": [
+      "Exclusions (one per line) 1",
+      "Exclusions (one per line) 2",
+      "Exclusions (one per line) 3",
+      "Exclusions (one per line) 4",
+      "Exclusions (one per line) 5",
+      "Exclusions (one per line) 6",
+      "Exclusions (one per line) 7"
+    ],
+    "info": [
+      "Important travel information (one per line) 1",
+      "Important travel information (one per line) 2",
+      "Important travel information (one per line) 3",
+      "Important travel information (one per line) 4",
+      "Important travel information (one per line) 5",
+      "Important travel information (one per line) 6"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Title1",
+        "location": "Location 1",
+        "activities": [
+          "Activities (one per line) 1",
+          "Activities (one per line) 2",
+          "Activities (one per line) 3",
+          "Activities (one per line) 4",
+          "Activities (one per line) 5",
+          "Activities (one per line) 6"
+        ],
+        "travel": "Travel note Travel note Travel note Travel note Travel note"
+      }
+    ],
+    "id": "web-address-id11",
+    "destination_id": "harishchandragadh",
+    "segment_id": "leisure",
+    "route": [],
+    "retired": false,
+    "order": 10,
+    "created_at": "2026-11-02T07:20:47.534813+00:00",
+    "updated_at": "2026-11-02T07:20:47.534813+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6ae8b197656c04ed8c6831a0"
+    },
+    "title": "GEGQERGER",
+    "price_inr": 0,
+    "duration_days": 3,
+    "featured": false,
+    "image": "/api/files/sacred-vista/uploads/d7faff23-08cd-478a-8ad5-0e6c19232c95.png",
+    "gallery": [
+      "/api/files/sacred-vista/uploads/0e25c3f7-42a8-4cd9-87d2-11849cec096f.jpg"
+    ],
+    "group_size": "122 cf eg",
+    "best_season": "`",
+    "summary": "Short summary\nShort summary\nShort summary\nShort summary\nShort summary\nShort summary\nShort summary\nShort summary\nShort summary\nShort summary\nShort summary\nShort summary\nShort summary\n",
+    "overview": "Overview Overview Overview Overview Overview OverviewOverview Overview Overview Overview Overview OverviewOverview Overview Overview Overview Overview OverviewOverview Overview Overview Overview Overview OverviewOverview Overview Overview Overview Overview Overview",
+    "highlights": [
+      "VHighlights (one per line)",
+      "Highlights (one per line)",
+      "Highlights (one per line)",
+      "Highlights (one per line)"
+    ],
+    "inclusions": [
+      "Inclusions (one per line)"
+    ],
+    "exclusions": [
+      "Exclusions (one per line)",
+      "Exclusions (one per line)",
+      "Exclusions (one per line)"
+    ],
+    "info": [
+      "Important travel information (one per line)",
+      "Important travel information (one per line)",
+      "Important travel information (one per line)",
+      "Important travel information (one per line)"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "fdadasasd",
+        "location": "wefgw",
+        "activities": [
+          "wegrre."
+        ],
+        "travel": "22"
+      }
+    ],
+    "id": "web-address-id11-9e5a89",
+    "destination_id": "tadoba",
+    "segment_id": "adventure",
+    "route": [],
+    "retired": false,
+    "order": 11,
+    "created_at": "2026-11-02T15:51:51.551269+00:00",
+    "updated_at": "2026-11-02T15:51:51.551269+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6ae8b25c656c04ed8c6831a5"
+    },
+    "title": "7452 gs ",
+    "price_inr": 11,
+    "duration_days": 3,
+    "featured": false,
+    "image": "/api/files/sacred-vista/uploads/a6810263-5dc3-4be9-8553-dac031fa5ac2.png",
+    "gallery": [
+      "/api/files/sacred-vista/uploads/705d762f-145f-4580-bd49-ee69a347b288.jpg"
+    ],
+    "group_size": "ygg",
+    "best_season": "gjgjg",
+    "summary": "Short summary\nShort summary\nShort summary\nShort summary\nShort summary\nShort summary\n",
+    "overview": "Overview Overview Overview Overview OverviewOverview Overview Overview Overview OverviewOverview Overview Overview Overview Overview",
+    "highlights": [
+      "Highlights (one per line)",
+      "Highlights (one per line)",
+      "Highlights (one per line)",
+      "Highlights (one per line)"
+    ],
+    "inclusions": [
+      "Inclusions (one per line)",
+      "Inclusions (one per line)",
+      "Inclusions (one per line)"
+    ],
+    "exclusions": [
+      "Exclusions (one per line)",
+      "Exclusions (one per line)",
+      "Exclusions (one per line)"
+    ],
+    "info": [
+      "Important travel information (one per line)",
+      "Important travel information (one per line)"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "4423432",
+        "location": "33",
+        "activities": [
+          "3234432"
+        ],
+        "travel": ""
+      }
+    ],
+    "id": "7452-gs",
+    "destination_id": "tadoba",
+    "segment_id": "corporate",
+    "route": [],
+    "retired": false,
+    "order": 12,
+    "created_at": "2026-11-02T15:55:08.456619+00:00",
+    "updated_at": "2026-11-02T15:55:08.456619+00:00"
+  },
+  {
+    "_id": {
+      "$oid": "6af172da109e19ba98dab4e3"
+    },
+    "title": "Title 1",
+    "destination_id": "nagpur",
+    "segment_id": "spiritual",
+    "price_inr": 234444,
+    "duration_days": 4,
+    "featured": false,
+    "image": "/api/files/sacred-vista/uploads/f0e6105e-1da1-4af0-813f-e057fc8913d4.jpg",
+    "gallery": [
+      "/api/files/sacred-vista/uploads/10106f2e-4712-436d-8b8f-2f05f7e7e68f.jpg",
+      "/api/files/sacred-vista/uploads/a568c642-9507-4c77-9b37-3efc5eb572f4.jpg"
+    ],
+    "group_size": "2\u20136 guests",
+    "best_season": "January",
+    "summary": "Short Hero Summary *\nShort Hero Summary *\nShort Hero Summary *",
+    "overview": "Detailed Expedition Overview *\nDetailed Expedition Overview *\nDetailed Expedition Overview *",
+    "highlights": [
+      "Key Highlights",
+      "Key Highlights"
+    ],
+    "inclusions": [
+      "Included in Expedition",
+      "Included in Expedition"
+    ],
+    "exclusions": [
+      "Not Included",
+      "Not Included"
+    ],
+    "info": [
+      "Important Travel Information",
+      "Important Travel Information"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Stage Title *",
+        "location": "Location / Zone *",
+        "activities": [],
+        "travel": ""
+      },
+      {
+        "day": 2,
+        "title": "Stage Title *",
+        "location": "Location / Zone *",
+        "activities": [
+          "Planned Activities",
+          "Planned Activities",
+          "Planned Activities"
+        ],
+        "travel": "Travel / Transfer NoteTravel / Transfer Note"
+      }
+    ],
+    "id": "web-address-id11-3a0bd1",
+    "route": [],
+    "retired": false,
+    "order": 13,
+    "created_at": "2026-11-09T07:14:34.577940+00:00",
+    "updated_at": "2026-11-09T07:16:46.249237+00:00"
+  }
+]
