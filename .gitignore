@@ -1,0 +1,24 @@
+# Dependencies & Virtualenvs
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Builds
+/build
+/dist
+.vercel
+
+# System & IDE
+.DS_Store
+*.log
+.vscode/
+.idea/

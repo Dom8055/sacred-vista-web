@@ -399,29 +399,58 @@ async def upload_image(file: UploadFile = File(...), admin: dict = Depends(curre
     data = await file.read(MAX_UPLOAD + 1)
     if len(data) > MAX_UPLOAD:
         raise HTTPException(413, "Image is larger than 10 MB")
-    path = f"{storage.APP_NAME}/uploads/{uuid.uuid4()}.{ext}"
-    try:
-        result = await run_in_threadpool(storage.put_object, path, data, file.content_type)
-    except Exception as e:
-        logger.error("Upload failed: %s", e)
-        raise HTTPException(502, "Image storage is unavailable right now. Please try again.")
-    await db.files.insert_one({"storage_path": result["path"], "original_filename": file.filename, "content_type": file.content_type,
-                               "size": result.get("size", len(data)), "is_deleted": False, "uploaded_by": admin["email"],
-                               "created_at": datetime.now(timezone.utc).isoformat()})
-    return {"url": f"/api/files/{result['path']}"}
+
+    if storage.is_cloudinary_configured():
+        try:
+            result = await run_in_threadpool(
+                storage.upload_to_cloudinary,
+                data,
+                folder=storage.CLOUDINARY_FOLDER,
+                filename=file.filename,
+            )
+            file_url = result["url"]
+            storage_path = result.get("public_id") or file_url
+        except Exception as e:
+            logger.error("Cloudinary upload failed: %s", e)
+            raise HTTPException(502, f"Image upload failed: {str(e)}")
+    else:
+        path = f"{storage.APP_NAME}/uploads/{uuid.uuid4()}.{ext}"
+        try:
+            result = await run_in_threadpool(storage.put_object, path, data, file.content_type)
+            file_url = f"/api/files/{result['path']}"
+            storage_path = result["path"]
+        except Exception as e:
+            logger.error("Upload failed: %s", e)
+            raise HTTPException(502, "Image storage is unavailable right now. Please try again.")
+
+    await db.files.insert_one({
+        "storage_path": storage_path,
+        "url": file_url,
+        "original_filename": file.filename,
+        "content_type": file.content_type,
+        "size": result.get("size", len(data)),
+        "is_deleted": False,
+        "uploaded_by": admin["email"],
+        "provider": "cloudinary" if storage.is_cloudinary_configured() else "local",
+        "created_at": datetime.now(timezone.utc).isoformat(),
+    })
+    return {"url": file_url}
 
 
 @api.get("/files/{path:path}")
 async def serve_file(path: str):
     record = await db.files.find_one({"storage_path": path, "is_deleted": False})
-    if not record:
+    if record and record.get("url") and record["url"].startswith("http"):
+        from starlette.responses import RedirectResponse
+        return RedirectResponse(record["url"], status_code=307)
+    if not record and not os.path.exists(os.path.join(storage.LOCAL_UPLOAD_DIR, os.path.basename(path))):
         raise HTTPException(404, "File not found")
     try:
         data, ctype = await run_in_threadpool(storage.get_object, path)
     except Exception as e:
         logger.error("File fetch failed: %s", e)
         raise HTTPException(502, "Image temporarily unavailable")
-    return Response(content=data, media_type=record.get("content_type") or ctype, headers={"Cache-Control": "public, max-age=31536000, immutable"})
+    return Response(content=data, media_type=(record.get("content_type") if record else None) or ctype, headers={"Cache-Control": "public, max-age=31536000, immutable"})
 
 
 @api.get("/admin/packages")
@@ -467,22 +496,42 @@ async def upload_blog_image(file: UploadFile = File(...)):
     data = await file.read(MAX_UPLOAD + 1)
     if len(data) > MAX_UPLOAD:
         raise HTTPException(413, "Image is larger than 10 MB")
-    path = f"{storage.APP_NAME}/uploads/blog-{uuid.uuid4()}.{ext}"
-    try:
-        result = await run_in_threadpool(storage.put_object, path, data, file.content_type)
-    except Exception as e:
-        logger.error("Blog image upload failed: %s", e)
-        raise HTTPException(502, "Image storage is unavailable right now. Please try again.")
+
+    if storage.is_cloudinary_configured():
+        try:
+            result = await run_in_threadpool(
+                storage.upload_to_cloudinary,
+                data,
+                folder=f"{storage.CLOUDINARY_FOLDER}/blogs",
+                filename=file.filename,
+            )
+            file_url = result["url"]
+            storage_path = result.get("public_id") or file_url
+        except Exception as e:
+            logger.error("Blog Cloudinary upload failed: %s", e)
+            raise HTTPException(502, f"Image upload failed: {str(e)}")
+    else:
+        path = f"{storage.APP_NAME}/uploads/blog-{uuid.uuid4()}.{ext}"
+        try:
+            result = await run_in_threadpool(storage.put_object, path, data, file.content_type)
+            file_url = f"/api/files/{result['path']}"
+            storage_path = result["path"]
+        except Exception as e:
+            logger.error("Blog image upload failed: %s", e)
+            raise HTTPException(502, "Image storage is unavailable right now. Please try again.")
+
     await db.files.insert_one({
-        "storage_path": result["path"],
+        "storage_path": storage_path,
+        "url": file_url,
         "original_filename": file.filename,
         "content_type": file.content_type,
         "size": result.get("size", len(data)),
         "is_deleted": False,
         "uploaded_by": "public-blog-submission",
+        "provider": "cloudinary" if storage.is_cloudinary_configured() else "local",
         "created_at": datetime.now(timezone.utc).isoformat(),
     })
-    return {"url": f"/api/files/{result['path']}"}
+    return {"url": file_url}
 
 
 @api.get("/blogs")

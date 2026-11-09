@@ -17,6 +17,10 @@ http.interceptors.request.use((config) => {
 export const img = (url, w = 1600) => {
   if (!url) return "";
   if (url.startsWith("/api/files/")) return `${BACKEND_URL}${url}`;
+  if (url.includes("res.cloudinary.com") && url.includes("/upload/")) {
+    if (url.includes("/upload/f_auto")) return url;
+    return url.replace("/upload/", `/upload/f_auto,q_auto,w_${w},c_limit/`);
+  }
   if (url.includes("images.unsplash.com")) return `${url}&w=${w}&fm=webp`;
   if (url.includes("images.pexels.com")) return url.replace(/w=\d+/, `w=${w}`);
   return url;
