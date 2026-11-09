@@ -26,8 +26,8 @@ from emailer import notify_new_inquiry
 import storage
 
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb://localhost:27017")
-DB_NAME = os.environ.get("DB_NAME", "sacred_vista")
-client = AsyncIOMotorClient(MONGO_URL)
+DB_NAME = os.environ.get("DB_NAME", "SacredVistaProd")
+client = AsyncIOMotorClient(MONGO_URL, serverSelectionTimeoutMS=5000)
 db = client[DB_NAME]
 JWT_ALGORITHM = "HS256"
 logger = logging.getLogger("sacredvista")
@@ -223,7 +223,8 @@ def verify_password(p: str, h: str) -> bool:
 
 def create_token(user_id: str, email: str) -> str:
     payload = {"sub": user_id, "email": email, "type": "access", "exp": datetime.now(timezone.utc) + timedelta(hours=8)}
-    return jwt.encode(payload, os.environ["JWT_SECRET"], algorithm=JWT_ALGORITHM)
+    secret = os.environ.get("JWT_SECRET", "475ee8b52c6cfb7781dc1bfdcd236be22198b50b63fd53efdfb249f740daf2f7")
+    return jwt.encode(payload, secret, algorithm=JWT_ALGORITHM)
 
 
 async def current_admin(request: Request) -> dict:
@@ -232,7 +233,8 @@ async def current_admin(request: Request) -> dict:
     if not token:
         raise HTTPException(401, "Not authenticated")
     try:
-        payload = jwt.decode(token, os.environ["JWT_SECRET"], algorithms=[JWT_ALGORITHM])
+        secret = os.environ.get("JWT_SECRET", "475ee8b52c6cfb7781dc1bfdcd236be22198b50b63fd53efdfb249f740daf2f7")
+        payload = jwt.decode(token, secret, algorithms=[JWT_ALGORITHM])
     except jwt.ExpiredSignatureError:
         raise HTTPException(401, "Session expired")
     except jwt.InvalidTokenError:
@@ -611,8 +613,15 @@ async def admin_delete_review(review_id: str, admin: dict = Depends(current_admi
 
 
 app.include_router(api)
-app.add_middleware(CORSMiddleware, allow_credentials=True, allow_origins=os.environ["CORS_ORIGINS"].split(","),
-                   allow_methods=["*"], allow_headers=["*"])
+cors_env = os.environ.get("CORS_ORIGINS", "*")
+cors_origins = [o.strip() for o in cors_env.split(",") if o.strip()] or ["*"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_credentials=True,
+    allow_origins=cors_origins,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 async def sync_catalog():
@@ -634,25 +643,33 @@ async def sync_catalog():
 
 @app.on_event("startup")
 async def startup():
-    await db.users.create_index("email", unique=True)
-    await db.login_attempts.create_index("identifier")
-    await db.inquiries.create_index("created_at")
-    await sync_catalog()
+    try:
+        await db.users.create_index("email", unique=True)
+        await db.login_attempts.create_index("identifier")
+        await db.inquiries.create_index("created_at")
+        await sync_catalog()
+    except Exception as e:
+        logger.error("DB startup index/sync error: %s", e)
+
     try:
         await run_in_threadpool(storage.init_storage)
         logger.info("Storage initialized")
     except Exception as e:
         logger.error("Storage init failed: %s", e)
-    admin_email = os.environ.get("ADMIN_EMAIL", "obhalane@gmail.com").lower()
-    admin_password = os.environ.get("ADMIN_PASSWORD", "123456")
-    existing_admin = await db.users.find_one({"email": admin_email})
-    if not existing_admin:
-        await db.users.insert_one({"email": admin_email, "password_hash": hash_password(admin_password),
-                                   "name": "Sacred Vista Admin", "role": "admin", "created_at": datetime.now(timezone.utc).isoformat()})
-        logger.info("Seeded admin user")
-    elif os.environ.get("ADMIN_PASSWORD"):
-        await db.users.update_one({"email": admin_email}, {"$set": {"password_hash": hash_password(admin_password)}})
-        logger.info("Updated admin user password from environment")
+
+    try:
+        admin_email = os.environ.get("ADMIN_EMAIL", "obhalane@gmail.com").lower()
+        admin_password = os.environ.get("ADMIN_PASSWORD", "123456")
+        existing_admin = await db.users.find_one({"email": admin_email})
+        if not existing_admin:
+            await db.users.insert_one({"email": admin_email, "password_hash": hash_password(admin_password),
+                                       "name": "Sacred Vista Admin", "role": "admin", "created_at": datetime.now(timezone.utc).isoformat()})
+            logger.info("Seeded admin user")
+        elif os.environ.get("ADMIN_PASSWORD"):
+            await db.users.update_one({"email": admin_email}, {"$set": {"password_hash": hash_password(admin_password)}})
+            logger.info("Updated admin user password from environment")
+    except Exception as e:
+        logger.error("Admin user initialization error: %s", e)
 
 
 @app.on_event("shutdown")
