@@ -34,6 +34,9 @@ export default function Header() {
       e.preventDefault();
       window.dispatchEvent(new Event("sv:reset-home"));
       scrollToTop();
+      if (window.location.hash) {
+        window.history.replaceState(null, "", "/");
+      }
     }
   };
 
@@ -51,6 +54,9 @@ export default function Header() {
         const el = document.querySelector(n.selector);
         if (el) scrollToEl(el, -70);
       }, 100);
+      if (window.location.hash !== n.to.replace("/", "")) {
+        window.history.replaceState(null, "", n.to);
+      }
     } else {
       setOpen(false);
     }
@@ -126,7 +132,9 @@ export default function Header() {
             aria-label="Menu"
           >
             <div className="shell flex items-center justify-between py-5">
-              <Logo className="h-14 w-auto" />
+              <Link to="/" onClick={(e) => { onHome(e); setOpen(false); }} aria-label="Sacred Vista home" className="flex items-center">
+                <Logo className="h-14 w-auto" />
+              </Link>
               <button type="button" onClick={() => setOpen(false)} className="flex h-11 w-11 items-center justify-center rounded-full border border-ivory/30" aria-label="Close menu" data-testid="mobile-menu-close-btn">
                 <X className="h-5 w-5" />
               </button>
@@ -148,7 +156,7 @@ export default function Header() {
               ))}
             </nav>
             <div className="shell pb-10">
-              <Link to="/contact" className="btn-gold w-full justify-center" data-testid="mobile-plan-journey-btn">Plan Your Journey</Link>
+              <Link to="/contact" onClick={() => setOpen(false)} className="btn-gold w-full justify-center" data-testid="mobile-plan-journey-btn">Plan Your Journey</Link>
               <p className="mt-6 text-center text-sm text-ivory/60">{SITE.email}</p>
             </div>
           </motion.div>

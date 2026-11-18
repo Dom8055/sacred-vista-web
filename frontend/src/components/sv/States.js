@@ -40,7 +40,12 @@ export const CatalogGate = ({ children, dark }) => {
   return children;
 };
 
-export const NotFoundBlock = ({ title, text, to, cta }) => (
+export const NotFoundBlock = ({
+  title = "This trail ends here.",
+  text = "The page you were looking for doesn't exist.",
+  to = "/",
+  cta = "Return home",
+}) => (
   <div className="shell flex min-h-[80vh] flex-col items-start justify-center pt-32 pb-20 text-ivory" data-testid="not-found-state">
     <p className="eyebrow mb-5">Off the map</p>
     <h1 className="text-4xl sm:text-5xl lg:text-6xl">{title}</h1>

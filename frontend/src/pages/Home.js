@@ -42,15 +42,29 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    const selector = HASH_TARGETS[location.hash];
+    const hash = location.hash;
+    if (!hash) return;
+    const selector = HASH_TARGETS[hash];
     if (!selector) return;
-    setActiveId(null);
-    const timer = setTimeout(() => {
+
+    if (activeId !== null) {
+      setActiveId(null);
+    }
+
+    let attempts = 0;
+    const interval = setInterval(() => {
+      attempts += 1;
       const el = document.querySelector(selector);
-      if (el) scrollToEl(el, -70);
-    }, 120);
-    return () => clearTimeout(timer);
-  }, [location.hash]);
+      if (el) {
+        scrollToEl(el, -70);
+        clearInterval(interval);
+      } else if (attempts >= 30) {
+        clearInterval(interval);
+      }
+    }, 100);
+
+    return () => clearInterval(interval);
+  }, [location.hash, catalog.status, activeId]);
 
   const stats = [
     { value: destinations.length, label: "Destinations" },

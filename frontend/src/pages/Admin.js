@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate, useLocation } from "react-router-dom";
 import {
   ArrowUpDown,
   ArrowUpRight,
@@ -1577,9 +1577,20 @@ function DestinationsPanel({ destinations, onAdd, onEdit, onDeleted }) {
 export default function Admin() {
   const { user, logout } = useAuth();
   const { reload, destinations } = useCatalog();
-  const [tab, setTab] = useState("dashboard");
+  const location = useLocation();
+  const navigate = useNavigate();
   const [destModalOpen, setDestModalOpen] = useState(false);
   const [editingDest, setEditingDest] = useState(null);
+
+  // Derive active tab from subroute e.g. /admin/packages -> "packages", default "dashboard"
+  const pathSegment = location.pathname.replace(/^\/admin\/?/, "").split("/")[0];
+  const validTabs = ["dashboard", "inquiries", "reviews", "blogs", "packages", "destinations"];
+  const tab = validTabs.includes(pathSegment) ? pathSegment : "dashboard";
+
+  const handleTabChange = (newTab) => {
+    navigate(`/admin/${newTab}`);
+  };
+
   useSeo("Admin desk");
   if (user === null) return <div className="pt-16"><Loading /></div>;
   if (!user) return <Navigate to="/admin/login" replace />;
@@ -1599,7 +1610,7 @@ export default function Admin() {
       user={user}
       logout={logout}
       tab={tab}
-      setTab={setTab}
+      setTab={handleTabChange}
       destinations={destinations}
       reload={reload}
       onAddDest={handleAddDest}

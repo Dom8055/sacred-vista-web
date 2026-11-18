@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "@/App.css";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useLocation, Navigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Toaster } from "@/components/ui/sonner";
 import { CatalogProvider } from "@/context/CatalogContext";
@@ -27,7 +27,10 @@ function Shell() {
   const { pathname } = useLocation();
   useLenis();
   useEffect(() => {
-    scrollToTop(true);
+    // Only scroll to top if not targeting a section anchor
+    if (!window.location.hash) {
+      scrollToTop(true);
+    }
   }, [pathname]);
   const admin = pathname.startsWith("/admin");
 
@@ -37,22 +40,53 @@ function Shell() {
       <ErrorBoundary key={pathname}>
         <motion.main key={pathname} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.45 }} className="bg-forest">
           <Routes>
+            {/* Core Pages */}
             <Route path="/" element={<Home />} />
+
+            {/* Packages & Package Details */}
             <Route path="/packages" element={<Packages />} />
             <Route path="/packages/:packageId" element={<PackageDetails />} />
+            <Route path="/package/:packageId" element={<PackageDetails />} />
             <Route path="/package-details" element={<PackageDetails />} />
+
+            {/* Destinations & Destination Details */}
             <Route path="/destinations" element={<Destinations />} />
             <Route path="/destinations/:destinationId" element={<DestinationDetails />} />
+            <Route path="/destination/:destinationId" element={<DestinationDetails />} />
             <Route path="/destination-details" element={<DestinationDetails />} />
+
+            {/* Gallery, Blog, Reviews, Contact */}
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<Blog />} />
+            <Route path="/blogs" element={<Navigate to="/blog" replace />} />
+            <Route path="/blogs/:slug" element={<Blog />} />
             <Route path="/reviews" element={<Reviews />} />
+            <Route path="/review" element={<Navigate to="/reviews" replace />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/contact-us" element={<Navigate to="/contact" replace />} />
+
+            {/* Anchors & Direct Section Aliases */}
+            <Route path="/about" element={<Navigate to="/#about" replace />} />
+            <Route path="/about-us" element={<Navigate to="/#about" replace />} />
+            <Route path="/philosophy" element={<Navigate to="/#philosophy" replace />} />
+            <Route path="/faq" element={<Navigate to="/#faq" replace />} />
+            <Route path="/faqs" element={<Navigate to="/#faq" replace />} />
+            <Route path="/category" element={<Navigate to="/#category" replace />} />
+            <Route path="/categories" element={<Navigate to="/#category" replace />} />
+
+            {/* Legal Pages */}
             <Route path="/privacy-policy" element={<LegalPage policy="privacy" />} />
+            <Route path="/privacy" element={<Navigate to="/privacy-policy" replace />} />
             <Route path="/terms-conditions" element={<LegalPage policy="terms" />} />
+            <Route path="/terms" element={<Navigate to="/terms-conditions" replace />} />
+            <Route path="/terms-and-conditions" element={<Navigate to="/terms-conditions" replace />} />
+
+            {/* Admin Desk & Login */}
             <Route path="/admin/login" element={<AdminLogin />} />
-            <Route path="/admin" element={<Admin />} />
+            <Route path="/admin/*" element={<Admin />} />
+
+            {/* Catch-all 404 */}
             <Route path="*" element={<NotFoundBlock title="This trail ends here." text="The page you were looking for doesn't exist." to="/" cta="Return home" />} />
           </Routes>
         </motion.main>

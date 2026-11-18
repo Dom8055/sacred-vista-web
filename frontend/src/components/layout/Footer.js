@@ -92,6 +92,26 @@ export default function Footer() {
                 <li key={n.to}>
                   <Link
                     to={n.to}
+                    onClick={(e) => {
+                      if (n.to === "/" && window.location.pathname === "/") {
+                        e.preventDefault();
+                        window.dispatchEvent(new Event("sv:reset-home"));
+                        window.scrollTo({ top: 0, behavior: "smooth" });
+                        if (window.location.hash) {
+                          window.history.replaceState(null, "", "/");
+                        }
+                      } else if (n.selector && window.location.pathname === "/") {
+                        e.preventDefault();
+                        window.dispatchEvent(new Event("sv:reset-home"));
+                        setTimeout(() => {
+                          const el = document.querySelector(n.selector);
+                          if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+                        }, 80);
+                        if (window.location.hash !== n.to.replace("/", "")) {
+                          window.history.replaceState(null, "", n.to);
+                        }
+                      }
+                    }}
                     className="link-line hover:text-ivory"
                     data-testid={`footer-explore-${n.to.replace("/", "") || "home"}`}
                   >

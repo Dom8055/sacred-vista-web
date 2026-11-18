@@ -37,7 +37,14 @@ function SidebarContent({ tab, onSelect, badges, user, onLogout }) {
   return (
     <div className="flex h-full flex-col">
       <div className="flex items-center gap-3 border-b border-ivory/10 px-6 py-5">
-        <Logo className="h-12 w-auto" />
+        <Link
+          to="/admin/dashboard"
+          onClick={() => onSelect("dashboard")}
+          className="block transition-transform hover:scale-[1.02]"
+          title="Admin Dashboard"
+        >
+          <Logo className="h-12 w-auto" />
+        </Link>
       </div>
 
       <nav className="flex-1 overflow-y-auto px-3 py-5" data-lenis-prevent>
