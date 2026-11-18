@@ -435,9 +435,9 @@ export default function Hero({ segments, active, onSelect }) {
       </div>
 
       {/* ==========================================
-          CENTERED SCULPTED IVORY BRAND & NAV DOCK
+          CENTERED SCULPTED IVORY BRAND & NAV DOCK (DESKTOP ONLY)
       ========================================== */}
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 z-20 flex justify-center px-3">
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 z-20 hidden md:flex justify-center px-3">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

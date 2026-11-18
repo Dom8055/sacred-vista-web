@@ -12,11 +12,20 @@ export default function Header() {
   const { pathname, hash } = useLocation();
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 60);
+    const onScroll = () => {
+      const isMobile = window.innerWidth < 768;
+      // On mobile home page, keep header hidden throughout the hero section
+      const threshold = pathname === "/" && isMobile ? window.innerHeight * 0.75 : 60;
+      setScrolled(window.scrollY > threshold);
+    };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+    window.addEventListener("resize", onScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, [pathname]);
 
   useEffect(() => {
     setOpen(false);
